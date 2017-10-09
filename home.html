@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Valve - Homepage</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Valve">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Cian Gannon & Peter Larkin">
+	<link rel="shortcut icon" href="media/images/essential/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script type='text/javascript' src='JS/background.js'></script>
+	<script type='text/javascript' src='JS/jssor.slider.min.js'></script>
+	<script type='text/javascript' src='JS/slideshow.js'></script>
+	<script type='text/javascript' src="JS/login.js"></script>
+	<script type='text/javascript' src="JS/gaben.js"></script>
+	
+</head>
+<body onload="changeImgHome()">
+
+<span class = "log" id="user"><a href="pages/login.html">Login</a></span>
+<script> window.onload = logininfohome; </script>
+
+<div class="nav">
+  <ul>
+	<li><a href="home.html"><img src="media/images/essential/Valve_logo.png" alt="Homepage" width="150" height="45"></a></li>
+	<li><a>Games</a>
+	  <ul>
+		<li><a href="pages/Counter.html">Counter-Strike</a></li>
+		<li><a href="pages/Dota.html">Dota</a></li>
+		<li><a href="pages/Half.html">Half-Life</a></li>
+		<li><a href="pages/Left4Dead.html">Left4Dead</a></li>
+		<li><a href="pages/Portal.html">Portal</a></li>
+		<li><a href="pages/Team.html">Team Fortress</a></li>
+	  </ul>
+	</li>
+	<li><a>Valve</a>
+	  <ul>
+		<li><a href="pages/valve.html">About Valve</a></li>
+		<li><a href="pages/jobs.html">Jobs</a></li>
+	  </ul>
+	</li>
+	<li><a href="pages/AddToCart.html">Store</a></li>
+	<li><a href="pages/steam.html">Steam</a></li>
+	<li><a href="pages/contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div class="box">
+
+<h1 class="titleslide">Our Game Collection</h1>
+<div class="slide" id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/02.jpg" alt="slide1" />
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/04.jpg" alt="slide2" />
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/05.jpg" alt="slide3" />
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="img/09.jpg" alt="slide4" />
+            </div>
+            <a data-u="ad" href="http://www.jssor.com" style="display:none">jQuery Slider</a>
+        
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    </div>
+	
+	<h1 class="titleslide">The Founder</h1>
+	<div class="box1">
+	<img src="media/images/homepage/Gaben.jpg" alt="GabeN" class="gaben" onclick="play()">
+	<p class="gabeninfo">Gabe Logan Newell was born on November 3, 1962 in Seattle, Washington. Newell grew up in Davis, California and graduated from Davis Senior High School in 1980. He attended Harvard University from 1980 to 1983, eventually dropping out. He is married to Lisa Mennet Newell.Newell has said that he has tried to grow into his public image: "They hug me when they run into me. I'm not a hugging person, but that's what they want. I was with my kids the first time that happened in public, and my kids were pretty cool with it. But I wasn't. 'Dad, roll with it.' Even now, I'm learning from our customers." Within the gaming community, he is nicknamed Gaben, after his work email address. </p>
+	<p class="gaben">"The Programmers of tomorrow are the wizards of the future. You're going to look like you have magic powers compared to everybody else."<br>
+	<br>Gabe Newell, <br> Founder, <br> CEO of Valve Software</p>
+	</div>
+	<br>
+</div>
+
+
+
+
+<div class="legalinfo">
+            <p>©2016 Valve Corporation. All rights reserved. Valve, the Valve logo, Half-Life, Steam, Team Fortress, Counter-Strike, Portal and Dota are trademarks and/or registered trademarks of Valve Corporation.<br> All other trademarks are property of their respective owners.</p>
+</div>
+
+
+<script>
+jssor_1_slider_init();
+</script>
+<audio id="audio1" src="media/audio/Gaben.mp3"></audio>
+</body>
+</html>

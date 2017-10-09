@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title id="usertitle">Valve - User Details</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Valve">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Cian Gannon & Peter Larkin">
+	<link rel="shortcut icon" href="../media/images/essential/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type='text/javascript' src='../JS/login.js'></script>
+	<script type='text/javascript' src='../JS/userinfo.js'></script>
+	<script type='text/javascript' src='../JS/background.js'></script>
+</head>
+<body onload="changeImg()">
+
+<span class = "log" id="user"><a href="login.html">Login</a></span> 
+    
+<div class="nav">
+  <ul>
+	<li><a href="../home.html"><img src="../media/images/essential/Valve_logo.png" alt="Homepage" width="150" height="45"></a></li>
+	<li><a>Games</a>
+	  <ul>
+		<li><a href="Counter.html">Counter-Strike</a></li>
+		<li><a href="Dota.html">Dota</a></li>
+		<li><a href="Half.html">Half-Life</a></li>
+		<li><a href="Left4Dead.html">Left4Dead</a></li>
+		<li><a href="Portal.html">Portal</a></li>
+		<li><a href="Team.html">Team Fortress</a></li>
+	  </ul>
+	</li>
+	<li><a>Valve</a>
+	  <ul>
+		<li><a href="valve.html">About Valve</a></li>
+		<li><a href="jobs.html">Jobs</a></li>
+	  </ul>
+	</li>
+	<li><a href="AddToCart.html">Store</a></li>
+	<li><a href="steam.html">Steam</a></li>
+	<li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div class="box">
+
+<h1 class="titleslide">Current Information</h1>
+<div class="box1">
+	<p id="userName">Username: </p>
+	<p id="useremail">Email Address: </p>
+	<p id="nameinfo">Name: </p>
+	<p id="usercardtype">Card Type: </p>
+	<p id="usercardnum">Card Number: </p>
+	<p id="userstreet1">Street Line 1: </p>
+	<p id="userstreet2">Street Line 2: </p>
+	
+	<br>
+	<input type="button" value="Sign-Out" onclick= "logout()" class="blueinput buttontall">
+	<br>
+	<br>
+</div>
+	
+<h1 class="titleslide">Update Information</h1>
+	<div class="box1">
+	<form name = "myform3">
+	<p>Name: <input class="inputbox" type="text" name="nameinfo"></P>
+	<p>Card Type: <select class="inputbox" name="cardtype"><option value="Visa">Visa</option> <option value="Mastercard">Mastercard</option> </select></p>
+	<p>Credit Card Number: <input class="inputbox" type="text" name="cardnumberinfo"></P>
+	<p>Street Line 1: <input class="inputbox" type="text" name="street1info"></P>
+	<p>Street Line 2: <input class="inputbox" type="text" name="street2info"></P>
+	<br>
+	<input type="button" value="Update" name="Submit" onclick= "userdetails()" class="blueinput buttontall">
+	<br>
+	<br>
+	</form>
+	</div>
+	<br>
+</div>
+<div style="height: 9.7%"></div>
+
+
+
+
+<div class="legalinfo">
+            <p>©2016 Valve Corporation. All rights reserved. Valve, the Valve logo, Half-Life, Steam, Team Fortress, Counter-Strike, Portal and Dota are trademarks and/or registered trademarks of Valve Corporation.<br> All other trademarks are property of their respective owners.</p>
+</div>
+<script> window.onload = logininfo(); redodetails();</script>
+</body>
+</html>

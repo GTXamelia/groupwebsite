@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title id="usertitle">Valve - Store</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Valve">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Cian Gannon & Peter Larkin">
+	<link rel="shortcut icon" href="../media/images/essential/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type='text/javascript' src='../JS/login.js'></script>
+	<script type='text/javascript' src='../JS/Games.js'></script>
+	<script type='text/javascript' src='../JS/userinfo.js'></script>
+	<script type='text/javascript' src='../JS/background.js'></script>
+</head>	
+<body onload="changeImg(); All();">
+
+<span class = "log" id="user"><a href="login.html">Login</a></span> 
+  
+<div class="nav">
+  <ul>
+	<li><a href="../home.html"><img src="../media/images/essential/Valve_logo.png" alt="Homepage" width="150" height="45"></a></li>
+	<li><a>Games</a>
+	  <ul>
+		<li><a href="Counter.html">Counter-Strike</a></li>
+		<li><a href="Dota.html">Dota</a></li>
+		<li><a href="Half.html">Half-Life</a></li>
+		<li><a href="Left4Dead.html">Left4Dead</a></li>
+		<li><a href="Portal.html">Portal</a></li>
+		<li><a href="Team.html">Team Fortress</a></li>
+	  </ul>
+	</li>
+	<li><a>Valve</a>
+	  <ul>
+		<li><a href="valve.html">About Valve</a></li>
+		<li><a href="jobs.html">Jobs</a></li>
+	  </ul>
+	</li>
+	<li><a href="AddToCart.html">Store</a></li>
+	<li><a href="steam.html">Steam</a></li>
+	<li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+
+<div class="box">
+	<h1 class="titleslide">Store</h1>
+	<div class="box1">
+		<img src="../media/images/storepage/Counter-Strike.jpg" alt="Counter-Strike" class="gaben">
+		
+		<div class= "box3">
+			<h2>CounterStrike = $40</h2>
+			Engage in an incredibly realistic brand of terrorist warfare in this wildly popular team-based game. Ally with teammates to complete strategic missions. Take out enemy sites. Rescue hostages. Your role affects your team's success. Your team's success <br>
+			<a href="Counter.html" class="blueinput buttontall" style = "float: left;">Read More>>></a>
+		</div>
+		
+		<div>
+			<img onclick="CounterPlus()" class="blueinput buttontall" src="../media/images/storepage/UpArrow.png" alt="Up Arrow">
+			<div class="box2">
+			<br>
+			<p id="Counter"></p>
+			</div>
+			<img onclick="CounterMinus()" class="blueinput buttontall" src="../media/images/storepage/DownArrow.png" alt="Down Arrow">
+		</div>
+		<p class= "space"></p>
+	</div>
+	<br>
+	<div class="box1">
+		<img src="../media/images/storepage/Dota2.jpg" alt="Dota2" class="gaben">
+		
+		<div class= "box3">
+			<h2>Dota 2 = $5</h2>
+			Dota is a competitive game of action and strategy, played both professionally and casually by millions of passionate fans worldwide. Players pick from a pool of over a hundred heroes, forming two teams of five players.<br>
+			<a href="Dota.html" class="blueinput buttontall" style = "float: left;">Read More>>></a>
+		</div>
+		
+		<div>
+			<img onclick="DotaPlus()" class="blueinput buttontall" src="../media/images/storepage/UpArrow.png" alt="Up Arrow">
+			<div class="box2">
+			<br>
+			<p id="Dota"></p>
+			</div>
+			<img onclick="DotaMinus()" class="blueinput buttontall" src="../media/images/storepage/DownArrow.png" alt="Down Arrow">
+		</div>
+		<p class= "space"></p>
+	</div>
+	<br>
+	<div class="box1">
+		<img src="../media/images/storepage/Half-Life.jpg" alt="Half-Life" class="gaben">
+		
+		<div class= "box3">
+			<h2>Half-Life 2 = $30</h2>
+			Valve's debut title blends action and adventure with award-winning technology to create a frighteningly realistic world where players must think to survive. Also includes an exciting multiplayer mode that allows you to play against friends and enemies.<br>
+			<a href="Half.html" class="blueinput buttontall" style = "float: left;">Read More>>></a>
+		</div>
+		
+		<div>
+			<img onclick="HalfPlus()" class="blueinput buttontall" src="../media/images/storepage/UpArrow.png" alt="Up Arrow">
+			<div class="box2">
+			<br>
+			<p id="Half"></p>
+			</div>
+			<img onclick="HalfMinus()" class="blueinput buttontall" src="../media/images/storepage/DownArrow.png" alt="Down Arrow">
+		</div>
+		<p class= "space"></p>
+	</div>
+	<br>
+	<div class="box1">
+		<img src="../media/images/storepage/Left4Dead.jpg" alt="Left4Dead" class="gaben">
+		
+		<div class= "box3">
+			<h2>Left4Dead = $20</h2>
+			From Valve comes Left 4 Dead, a co-op action horror game for the PC and Xbox 360 that casts up to four players in an epic struggle for survival against swarming zombie hordes and terrifying mutant monsters.<br>
+			<a href="Left4Dead.html" class="blueinput buttontall" style = "float: left;">Read More>>></a>
+		</div>
+		
+		<div>
+			<img onclick="Left4DeadPlus()" class="blueinput buttontall" src="../media/images/storepage/UpArrow.png" alt="Up Arrow">
+			<div class="box2">
+			<br>
+			<p id="Left4Dead"></p>
+			</div>
+			<img onclick="Left4DeadMinus()" class="blueinput buttontall" src="../media/images/storepage/DownArrow.png" alt="Down Arrow">
+		</div>
+		<p class= "space"></p>
+	</div>
+	<br>
+	<div class="box1">
+		<img src="../media/images/storepage/Portal.jpg" alt="Portal" class="gaben">
+		
+		<div class= "box3">
+			<h2>Portal = $50</h2>
+			Portal is a new single player game from Valve. Set in the mysterious Aperture Science Laboratories, Portal has been called one of the most innovative new games on the horizon and will offer gamers hours of unique gameplay.<br>
+			<a href="Portal.html" class="blueinput buttontall" style = "float: left;">Read More>>></a>
+		</div>
+		
+		<div>
+			<img onclick="PortalPlus()" class="blueinput buttontall" src="../media/images/storepage/UpArrow.png" alt="Up Arrow">
+			<div class="box2">
+			<br>
+			<p id="Portal"></p>
+			</div>
+			<img onclick="PortalMinus()" class="blueinput buttontall" src="../media/images/storepage/DownArrow.png" alt="Down Arrow">
+		</div>
+		<p class= "space"></p>
+	</div>
+	<br>
+	<div class="box1">
+		<img src="../media/images/storepage/TeamFortress2.jpg" alt="TeamFortress2" class="gaben">
+		
+		<div class= "box3">
+			<h2>TeamFortress 2 = $30</h2>
+			Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!<br>
+			<a href="Team.html" class="blueinput buttontall" style = "float: left;">Read More>>></a>
+		</div>
+		
+		<div>
+			<img onclick="TeamPlus()" class="blueinput buttontall" src="../media/images/storepage/UpArrow.png" alt="Up Arrow">
+			<div class="box2">
+			<br>
+			<p id="Team"></p>
+			</div>
+			<img onclick="TeamMinus()" class="blueinput buttontall" src="../media/images/storepage/DownArrow.png" alt="Down Arrow">
+		</div>
+		<p class= "space"></p>
+	</div>
+	<br>
+	<div class="box1" style="margin-top: 26px;">
+		<p id="Total"></p>
+		<input type="button" value="Checkout" name="Submit" class="blueinput buttontall" onclick="CheckPlus()">
+		<br>
+		<br>
+	</div>
+	<br>
+</div>
+
+<div class="legalinfo">
+            <p>©2016 Valve Corporation. All rights reserved. Valve, the Valve logo, Half-Life, Steam, Team Fortress, Counter-Strike, Portal and Dota are trademarks and/or registered trademarks of Valve Corporation.<br> All other trademarks are property of their respective owners.</p>
+</div>
+
+<script> window.onload = logininfo();</script>
+</body>
+</html>

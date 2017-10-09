@@ -1,0 +1,319 @@
+﻿/*START (Body Settings)*/
+body {
+	margin: 0;
+	padding: 0;
+	background-attachment:fixed; 
+	background-repeat: no-repeat; 
+	background-position:top center;
+}
+html, body {
+	height:100%}
+/*END (Body Settings)*/
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+a.link{
+    color: red;
+}
+
+/*START (Login Button on top left of webpage)*/
+.log {
+	position: absolute;
+	padding-top: 0;
+	text-decoration: none;
+	display: block;
+}
+
+.log a {
+	padding-top: 0;
+	color: #fff;
+	opacity: 0.7;
+	text-decoration: none;
+	display: block;
+}
+
+.log a:hover {
+	color: #fff;
+	opacity: 1; 
+}
+
+.log a.active {
+	background-color: #aaa;
+	color: #444;
+	cursor: default;
+}
+/*END (Login Button Button on top left of webpage)*/
+
+
+/*START (Navbar)*/
+.nav ul {
+	list-style: none;
+	background-color: #171A21;
+	text-align: center;
+	padding: 15px 25px 10px 25px;
+	margin: 0;
+}
+
+.nav li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	line-height: 40px;
+	text-align: left;
+}
+
+.nav a {
+	float: right;
+	text-decoration: none;
+	color: #fff; /*Text Colour*/
+	opacity: 0.7; 
+	display: block;
+	padding-left: 1px;
+	border-bottom: 1px solid #888;
+	transition: .3s background-color;
+}
+
+.nav a:hover {
+	color: #fff;
+	opacity: 1; 
+}
+
+.nav a.active {
+	background-color: #aaa;
+	color: #444;
+	cursor: default;
+}
+
+/* Sub Menus */
+.nav li li {
+	font-size: .8em;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+  .nav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+	z-index:100;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
+/*END (Navbar)*/
+
+/*Start (Background for text)*/
+.box {
+	margin: auto;
+    width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.8), -12px 0 8px -4px rgba(0, 0, 0, 0.8);
+	background: #252934; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* Standard syntax (must be last)*/ 
+	
+	
+}
+/*END (Background for text)*/
+
+/*Start(Footer)*/
+.legalinfo {
+	color: #a3a3a3;
+	opacity: 0.8;
+	font-size: 12px;
+	text-align: center;
+	width:100%;
+	position:relative;
+	bottom:0;
+	left:0;
+	background: #252934; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(37,41,52,0.8), rgba(20,20,20,0.9999999)); /* Standard syntax (must be last)*/ 
+}
+
+.legalinfo{
+	height: 35px; /* '.push' must be the same height as 'footer' */
+}
+/*END (Footer)*/
+
+/*START (Background for text boxes on each page)*/
+.box1 {
+	margin-top: 10px;
+	margin: auto;
+    width: 62.5%;
+	height: auto;
+	text-decoration: none;
+	color: #fff; /*Text Colour*/
+	opacity: 0.7; 
+	border-style: ridge;
+	background: #141414;
+}
+.box1 h2{
+	text-align:left;
+	border: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.box2 {
+	text-align: center;
+	float:right;
+	height: 90px;
+	border-right:0px;
+	text-decoration: none;
+	color: #fff; /*Text Colour*/
+	opacity: 0.7; 
+	border-style: ridge;
+	background: #141414;
+	width: 27%;
+}
+.box2 p{
+	margin: 0px;
+}
+.box3 {
+	float: left;
+	width: 225px;
+	height: 190px;
+}
+
+.titleslide {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	border-top: 4px;
+	border-style: ridge;
+	background-color: #171A21;
+	text-decoration: none;
+	color: #fff; /*Text Colour*/
+	opacity: 0.7; 
+}
+/*END (Background for text boxes on each page)*/
+
+/*START (Blue Button Settings)*/
+.blueinput:hover {
+	opacity:1;
+}
+
+.blueinput2:hover {
+	opacity:1;
+}
+
+.buttontall > input, input.buttontall {
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.blueinput {
+	float:right;
+    border-radius: 2px;
+    border: none;
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+	opacity:0.7;
+}
+img.blueinput {
+	float: right;
+	border: none;
+    border-radius: 0px;
+    padding: 0px;
+	width: 27%;
+	display: inline-block;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: #67c1f5 !important;
+    background: rgba( 103, 193, 245, 0.2 );
+	opacity:0.7;
+}
+/*END (Blue Button Settings)*/
+
+/*START (Images Settings)*/
+.steamimg {
+	padding-top: 10px;
+	height: 25%;
+	width: 58%;
+	display: block;
+    margin: 0 auto;
+}
+
+.supportimg {
+	padding-top: 10px;
+	height: 25%;
+	width: 25%;
+	display: block;
+    margin: 0 auto;
+}
+
+img.gaben {
+	float: left;
+	width: 27%;
+	margin-right: 10px;
+}
+/*END (Images Settings)*/
+
+/*START (Input boxes Settings)*/
+.inputbox {
+	float: right;
+	margin-right: 5px;
+}
+/*END (Input boxes Settings)*/
+
+/*START (Founder Information Settings)*/
+p.gaben {
+	text-align: center;
+}
+	
+.gabeninfo {
+	margin: 3px;
+}
+/*END (Founder Information Settings)*/
+
+/*START (space for store page divs)*/
+.space {
+	clear: both;
+}
+/*END (space for store page divs)*/
